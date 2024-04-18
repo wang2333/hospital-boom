@@ -2,7 +2,7 @@ name: Run main.py
 
 on:
   schedule:
-    - cron: '0 10-16 * * *' # 每天的 10 点到 16 点，每小时的第 0 分钟运行
+    - cron: '0 10,16 * * *' # 每天的 10 点到 16 点，每小时的第 0 分钟运行
   workflow_dispatch: # 允许手动触发
   
 jobs:
