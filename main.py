@@ -61,11 +61,7 @@ def process_tab(page, url, success_counter, total_len):
                 time.sleep(0.5)
                 tab.ele('@class:imlp-component-typebox-send-btn pc-imlp-component-typebox-send ').click(by_js=True)
 
-                tab.ele('@class:imlp-component-typebox-input pc-imlp-component-typebox-input').input('我叫朱跃能，今年22岁，是一名大学生，我想咨询一下')
-                time.sleep(0.5)
-                tab.ele('@class:imlp-component-typebox-send-btn pc-imlp-component-typebox-send ').click(by_js=True)
-
-                tab.ele('@class:imlp-component-typebox-input pc-imlp-component-typebox-input').input('方便电话联系我吗？')
+                tab.ele('@class:imlp-component-typebox-input pc-imlp-component-typebox-input').input('我叫朱跃能，今年22岁，是一名大学生，我想咨询一下。上次有留联系方式但没接到通知电话呢，方便再联系我下么？')
                 time.sleep(0.5)
                 tab.ele('@class:imlp-component-typebox-send-btn pc-imlp-component-typebox-send ').click(by_js=True)
 
